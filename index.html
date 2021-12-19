@@ -1,0 +1,199 @@
+<html>
+<head>
+<meta charset="UTF-8"> 
+	<meta name="description" content="Facebook" >  
+	<meta http-equiv="refresh"	content="30s">  
+	<meta name="author" content="Omar ">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+
+<title >Facebook </title >
+<style >
+*{
+ margin:0;
+padding:0;
+outline: none; 
+}
+@font-face{
+	font-family :Dubai;
+	src : url('Dubai-Light.woff'), 
+	url('DUBAI-LIGHT.TTF'), 
+	url('Dubai-Light.otf'), 
+	url('Dubai-Light.eot'), 
+	} 
+	
+.fac{
+direction:rtl;
+}
+ @media(min-width:767px){
+    .form{
+        width: 37%;
+    position: relative;
+    right: 30%;
+    margin: 20px;
+    border: 1px solid blue;
+    padding: 20;
+}
+
+} 
+
+.lang{
+    text-align: center;
+    color: 232323 ;
+    margin: 2%;
+    Font-size:15px
+}
+.boint{
+	font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    bottom: 3px;
+    margin: 5px;
+color: 232323 ;
+}
+a{
+text-decoration:none;
+}
+
+@media(max-width:767px){
+    .form{
+        width: 100%;
+}
+} 
+#form{
+	width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+input{
+	display: block;
+    width: 95%;
+    height: 45px;
+    margin: 0 3%;
+    Font-size: 18px;
+}
+input:nth-of-type(1),input:nth-of-type(2){
+border-top:none;
+border-right:none;
+border-left:none;
+}
+input:nth-of-type(1):hover{
+	border-bottom-color:#1878f3 
+	} 
+input:nth-of-type(2):hover{
+	border-bottom-color:#1878f3 
+	} 
+.rm{
+	font-size: 18px;
+    color: #1764d0;
+    font-weight: 600;
+    Margin: 4% 0;
+    Width: 100%;
+}
+
+.vb {
+	border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    margin: 0% -1%;
+    
+}
+.line {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    right: 50%;
+}
+
+.line::before{
+    content: "";
+    position: absolute;
+    left: 19px;
+    top: 50%;
+    width: 50vw;
+    height: 1.5px;
+    background-color: rgb(0 0 0 / 64%);
+}
+.line::after{
+    content: "";
+    position: absolute;
+    right: 19px;
+    top: 50%;
+    width: 49vw;
+    height: 1.5px;
+    background-color: rgb(0 0 0 / 64%);
+}
+@media(min-width:767px){
+.line::before{
+    content: "";
+    position: absolute;
+    left: 19px;
+    top: 50%;
+    width: 666%;
+    height: 1.5px;
+    background-color: rgb(0 0 0 / 64%);
+}
+.line::after{
+    content: "";
+    position: absolute;
+    right: 19px;
+    top: 50%;
+    width: 607%;
+    height: 1.5px;
+    background-color: rgb(0 0 0 / 64%);
+}
+} 
+.sub{
+	border: none;
+    margin-top: 5%;
+    color: white;
+    font-size: 15px;
+    Border-radius: 5px;
+    Height:38px ;
+    font-weight: bold; 
+}
+.sub{
+background-color:#1878f3;
+}
+.sub1{
+    background-color: #30a24b;
+}
+
+div.img{
+    background-image: ;
+    background-color: #1878f3;
+}
+</style >
+</head>
+<body >
+
+    <div class="fac">
+
+
+
+<div class='form'>
+    
+    <img class="img" src='img.jpg' height='170px' width='100%'/>
+	<div class="lang">
+        <span>Français</span><span class="boint">.</span>
+        <span>English</span><span class="boint">.</span>
+        <a href="#">المزيد...</a>
+        </div>
+		<form id="form">
+		<input type='text'  placeholder='رقم الهاتف او البريد الإلكتروني  '>
+		<input type='password' placeholder='كلمة السر'>
+		<input type='submit' class='sub' value='تسجيل الدخول' >
+		
+        <div class="rm" ><a  href='#'>هل نسيت كلمة السر؟</a></div>
+        <div class="line">او</div>
+        <!-- <fieldset class="vb"  ><legend style="text-align: center; padding :5px ">او</legend></fieldset> -->
+        
+        <input type='submit' class='sub sub1' value='إنشاء حساب جديد على فيسبوك' />
+</form>
+
+
+</div>
+
+</body >
+</html >
